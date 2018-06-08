@@ -1,18 +1,10 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "lualink"
 version = "0.0.0-2"
--- LuaDist source
 source = {
-  tag = "0.0.0-2",
-  url = "git://github.com/LuaDist-testing/lualink.git"
+	url = "git+https://github.com/adraenwan/lualink",
+	branch = "luarocks",
+	tag = "v0.0.0",
 }
--- Original source
--- source = {
--- 	url = "git+https://github.com/adraenwan/lualink",
--- 	branch = "luarocks",
--- 	tag = "v0.0.0",
--- }
 
 description = {
 	summary = "A linker for lua code.",
